@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background: linear-gradient(135deg,#0f172a,#1e293b);
+  color:white;
+  font-family: Arial, sans-serif;
+}
+
+.hero{
+  height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.hero h1{
+  font-size:4rem;
+}
+
+.hero span{
+  color:#38bdf8;
+}
+
+.hero h3{
+  margin-top:15px;
+  color:#94a3b8;
+}
+
+.hero p{
+  margin-top:20px;
+  width:600px;
+  text-align:center;
+}
+
+.about{
+  min-height:100vh;
+  color:white;
+}
+
+.about h1{
+  color:#38bdf8;
+  margin-bottom:20px;
+}
+
+.about p{
+  font-size:18px;
+  line-height:1.8;
+}
+
+.about ul li{
+  margin:10px 0;
+}
+
+.skills{
+  min-height:100vh;
+}
+
+.skills h1{
+  color:#38bdf8;
+  margin-bottom:40px;
+}
+
+.progress{
+  height:25px;
+  background-color:#334155;
+}
+
+.progress-bar{
+  background-color:#38bdf8;
+  font-weight:bold;
+}
+
+.projects{
+  min-height:100vh;
+}
+
+.projects h1{
+  color:#38bdf8;
+  margin-bottom:40px;
+}
+
+.card{
+  transition:0.3s;
+  border:none;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px #38bdf8;
+}
+
+.contact h1{
+  color:#38bdf8;
+  margin-bottom:30px;
+}
+
+.form-control{
+  background-color:#1e293b;
+  color:white;
+  border:none;
+}
+
+.form-control::placeholder{
+  color:#94a3b8;
+}
+
+.footer{
+  background-color:#0f172a;
+  color:#94a3b8;
+}
+
+.certifications h1{
+  color:#38bdf8;
+  margin-bottom:40px;
+}
+
+.certifications .card{
+  border:none;
+  transition:0.3s;
+}
+
+.certifications .card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 0 15px #38bdf8;
+}
